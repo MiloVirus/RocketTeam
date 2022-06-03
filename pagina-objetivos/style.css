@@ -1,0 +1,53 @@
+body
+{
+    /*background-color: #044aa0;*/
+    background-image: linear-gradient(#043877,#9700fc);
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+#fondo 
+{
+    max-width: 1200px;
+    max-height: 1300px;
+    margin-bottom: 50px;
+}
+.description
+{
+    line-height: 1;
+}
+.navbar
+{
+    background-color: #043877"
+}
+#teamRocket
+{
+    font-weight: bold;
+}
+.card
+{
+    border-radius: 0px 15px 0px 50px;
+}
+@media only screen and (max-width: 767px) {
+    #fondo
+    {
+      max-width: 767px;
+      padding-bottom:0;
+      margin-bottom: 0px;
+    }
+    #fondo-col
+    {
+        padding: 0;    
+    }
+    .description
+    {
+        text-align: center;
+    }
+    #containerRocket
+    {
+        padding-top: 3.75rem;
+    }
+    
+  }
+
+  
